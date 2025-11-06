@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingrid Gonçalves - Especialista em BI & Estratégia de Dados</title>
+    <!-- Carregando Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carregando Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Configuração de fonte moderna e fundo escuro */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* slate-900 */
+            color: #e2e8f0; /* slate-200 */
+            line-height: 1.6;
+        }
+        /* Cor de destaque para títulos e indicadores */
+        .highlight-color {
+            color: #3b82f6; /* blue-500 */
+        }
+        /* Estilo para a borda dos cards */
+        .impact-card {
+            border: 2px solid #1e293b; /* slate-800 */
+            transition: all 0.3s ease;
+        }
+        .impact-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            border-color: #3b82f6; /* blue-500 on hover */
+            box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3), 0 4px 6px -2px rgba(59, 130, 246, 0.05);
+        }
+        /* Timeline line */
+        .timeline-line {
+            width: 2px;
+            background-color: #334155; /* slate-700 */
+            position: absolute;
+            left: 12px;
+            top: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+
+        <!-- 1. HEADER & NAVIGATION -->
+        <header class="py-6 flex justify-between items-center border-b border-slate-800">
+            <h1 class="text-2xl font-extrabold highlight-color">
+                INGRID GONÇALVES <span class="text-white text-sm block sm:inline">| BI & Estratégia</span>
+            </h1>
+            <nav class="space-x-4 hidden sm:flex">
+                <a href="#impacto" class="text-slate-400 hover:text-white transition duration-200">Impacto</a>
+                <a href="#expertise" class="text-slate-400 hover:text-white transition duration-200">Expertise</a>
+                <a href="#cases" class="text-slate-400 hover:text-white transition duration-200">Cases</a>
+                <a href="#contato" class="bg-blue-600 px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-700 transition duration-200">Fale Comigo</a>
+            </nav>
+        </header>
+
+        <!-- 2. HERO SECTION: A CHAMADA DE ALTO IMPACTO -->
+        <section id="hero" class="pt-16 pb-20 text-center">
+            <div class="mx-auto max-w-4xl">
+                <p class="text-xl text-slate-400 mb-4">Especialista em Power BI | Business Intelligence | Estratégia de Dados</p>
+                <h2 class="text-5xl sm:text-7xl font-extrabold leading-tight tracking-tighter">
+                    <span class="highlight-color">Ingrid Gonçalves:</span> A Data Transformer que entrega
+                    <span class="block mt-4 text-white">Resultados Financeiros e Operacionais.</span>
+                </h2>
+                <div class="mt-8 text-2xl font-medium text-slate-300">
+                    <i class="fas fa-chart-line highlight-color mr-3"></i>+28% em Ganhos Financeiros.
+                    <i class="fas fa-tachometer-alt highlight-color ml-6 mr-3"></i>+83% em Eficiência Operacional.
+                </div>
+                <div class="mt-10">
+                    <a href="#cases" class="bg-blue-600 text-white text-lg font-semibold px-8 py-4 rounded-xl hover:bg-blue-700 transition duration-300 shadow-xl shadow-blue-500/30">
+                        Veja os Cases de Sucesso <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. VISÃO GERAL E FOCO (OS 3 PILARES) -->
+        <section id="impacto" class="py-16">
+            <h3 class="text-3xl font-bold text-center mb-12">Meu Valor Único: Foco em Transformação Mensurável</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Card 1: Otimização Financeira -->
+                <div class="impact-card p-6 bg-slate-800/50 rounded-xl">
+                    <div class="text-4xl highlight-color mb-3"><i class="fas fa-dollar-sign"></i></div>
+                    <h4 class="text-xl font-semibold mb-2">OTIMIZAÇÃO DE MARGENS</h4>
+                    <p class="text-3xl font-extrabold highlight-color mb-3">+28% em Ganhos Financeiros</p>
+                    <p class="text-slate-400 text-sm">Dashboard de DRE e CMV que oferece transparência estratégica para a saúde financeira do negócio.</p>
+                </div>
+
+                <!-- Card 2: Eficiência Operacional -->
+                <div class="impact-card p-6 bg-slate-800/50 rounded-xl">
+                    <div class="text-4xl highlight-color mb-3"><i class="fas fa-cogs"></i></div>
+                    <h4 class="text-xl font-semibold mb-2">ALTA EFICIÊNCIA OPERACIONAL</h4>
+                    <p class="text-3xl font-extrabold highlight-color mb-3">+83% de Produtividade</p>
+                    <p class="text-slate-400 text-sm">Dashboard de Performance que transforma dados operacionais brutos em insights acionáveis e estratégicos.</p>
+                </div>
+
+                <!-- Card 3: Automação Inteligente -->
+                <div class="impact-card p-6 bg-slate-800/50 rounded-xl">
+                    <div class="text-4xl highlight-color mb-3"><i class="fas fa-robot"></i></div>
+                    <h4 class="text-xl font-semibold mb-2">GOVERNANÇA & AUTOMAÇÃO</h4>
+                    <p class="text-3xl font-extrabold highlight-color mb-3">40% de Redução de Tempo</p>
+                    <p class="text-slate-400 text-sm">Automação de ETLs com Python e APIs, garantindo consistência, confiabilidade e escalabilidade das entregas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. ÁREAS DE EXPERTISE (A CAIXA DE FERRAMENTAS) -->
+        <section id="expertise" class="py-16 border-t border-slate-800">
+            <h3 class="text-3xl font-bold text-center mb-12">Expertise Dupla: Técnica Impecável + Visão Estratégica</h3>
+            <div class="grid md:grid-cols-2 gap-12">
+                
+                <!-- Coluna 1: Habilidades Técnicas (Depth) -->
+                <div class="bg-slate-800 p-8 rounded-xl shadow-lg">
+                    <h4 class="text-2xl font-semibold mb-6 highlight-color"><i class="fas fa-code mr-2"></i> Data & Engenharia (Onde a Mágica Acontece)</h4>
+                    <ul class="space-y-3 text-slate-300">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>**Power BI Expert:** DAX Avançado, Power Query (Linguagem M).</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>**Automação / ETL:** Python (Pandas, Numpy), Integração de APIs, Power Automate.</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>**Governança:** Modelagem de Dados, SQL, e Manutenção de Servidores Power BI (500+ usuários).</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>**Complementar:** Tableau, Conhecimentos em Big Data e Machine Learning.</li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 2: Liderança e Estratégia (Breadth) -->
+                <div class="bg-slate-800 p-8 rounded-xl shadow-lg">
+                    <h4 class="text-2xl font-semibold mb-6 highlight-color"><i class="fas fa-sitemap mr-2"></i> Liderança e Visão de Negócio (O Impacto no C-Level)</h4>
+                    <ul class="space-y-3 text-slate-300">
+                        <li class="flex items-center"><i class="fas fa-user-tie text-purple-400 mr-3"></i>**Liderança Técnica:** Referência em BI e *Data Enablement*, liderando iniciativas de padronização.</li>
+                        <li class="flex items-center"><i class="fas fa-lightbulb text-purple-400 mr-3"></i>**Criação de Estratégia:** Estruturação de departamentos de BI do zero e definição de KPIs estratégicos com Diretoria.</li>
+                        <li class="flex items-center"><i class="fas fa-users text-purple-400 mr-3"></i>**Mentoria e Cultura:** Orientação e mentoria de pares, promovendo uma cultura *data-driven* eficaz.</li>
+                        <li class="flex items-center"><i class="fas fa-chart-pie text-purple-400 mr-3"></i>**Análise Estratégica:** Expertise em Análise Financeira, Operacional e Otimização de Margens.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 5. EXPERIÊNCIA E CASES (A PROVA DO RESULTADO) -->
+        <section id="cases" class="py-16 border-t border-slate-800">
+            <h3 class="text-3xl font-bold text-center mb-12">Histórico de Transformação: Minha Jornada de Resultados</h3>
+            <div class="relative max-w-4xl mx-auto">
+                <div class="timeline-line hidden md:block"></div>
+
+                <!-- Case 1: ACT digital (Atual) -->
+                <div class="relative mb-8 md:flex md:items-start group">
+                    <div class="absolute w-6 h-6 rounded-full bg-blue-600 -left-2 top-1 md:relative md:flex-shrink-0 md:mr-6 md:left-0 md:top-0"></div>
+                    <div class="bg-slate-800 p-6 rounded-xl w-full md:ml-6 md:w-auto flex-grow impact-card">
+                        <p class="text-sm font-light text-slate-400 mb-1">Maio/2025 – Atual</p>
+                        <h4 class="text-xl font-bold highlight-color">Especialista em BI & Data Enablement - ACT digital</h4>
+                        <p class="text-slate-300 font-semibold mb-2">Referência Técnica em Projetos Analíticos</p>
+                        <ul class="list-disc list-inside space-y-1 text-slate-400 text-sm">
+                            <li>Lidero iniciativas de automação e padronização de relatórios com **Python** (Eficiência, Consistência, Escalabilidade).</li>
+                            <li>Estruturação e manutenção de ETLs de alta performance em Power Query, integrando múltiplas fontes de dados.</li>
+                            <li>Mentoria e orientação de pares, fortalecendo a maturidade analítica da equipe.</li>
+                            <li>Consolido e analiso bases mensais, assegurando consistência histórica e confiabilidade.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Case 2: FM2C -->
+                <div class="relative mb-8 md:flex md:items-start group">
+                    <div class="absolute w-6 h-6 rounded-full bg-blue-600 -left-2 top-1 md:relative md:flex-shrink-0 md:mr-6 md:left-0 md:top-0"></div>
+                    <div class="bg-slate-800 p-6 rounded-xl w-full md:ml-6 md:w-auto flex-grow impact-card">
+                        <p class="text-sm font-light text-slate-400 mb-1">Julho/2023 – Maio/2025</p>
+                        <h4 class="text-xl font-bold highlight-color">Analista de BI / Desenvolvedor Power BI - FM2C</h4>
+                        <p class="text-slate-300 font-semibold mb-2">Transformação que Elevou a Eficiência Operacional em 30%</p>
+                        <ul class="list-disc list-inside space-y-1 text-slate-400 text-sm">
+                            <li>Implementação de 100+ dashboards (DAX/Power Query), elevando a **eficiência operacional em 30%**.</li>
+                            <li>Automatização de dados via APIs e Power Query, **reduzindo em 40%** o tempo de geração de relatórios.</li>
+                            <li>Otimização do servidor Power BI para performance estável e escalável para 50+ usuários.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Case 3: G2MD / G2 Assessoria Financeira -->
+                <div class="relative mb-8 md:flex md:items-start group">
+                    <div class="absolute w-6 h-6 rounded-full bg-blue-600 -left-2 top-1 md:relative md:flex-shrink-0 md:mr-6 md:left-0 md:top-0"></div>
+                    <div class="bg-slate-800 p-6 rounded-xl w-full md:ml-6 md:w-auto flex-grow impact-card">
+                        <p class="text-sm font-light text-slate-400 mb-1">Fevereiro/2022 – Julho/2023</p>
+                        <h4 class="text-xl font-bold highlight-color">Consultor de Power BI | Analytics e Business Intelligence - G2MD</h4>
+                        <p class="text-slate-300 font-semibold mb-2">Estruturação de Departamento e Ganhos Financeiros</p>
+                        <ul class="list-disc list-inside space-y-1 text-slate-400 text-sm">
+                            <li>Estruturação do departamento de BI e análise financeira **do zero**, criando fluxos e ferramentas estratégicas.</li>
+                            <li>Desenvolvimento de dashboards com KPIs Financeiros, permitindo decisões estratégicas com redução de **25%** no tempo de análise.</li>
+                            <li>Automatização crítica com Python/APIs, garantindo atualização diária sem intervenção manual.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- 6. FORMAÇÃO E CREDENCIAIS -->
+        <section id="formacao" class="py-16 border-t border-slate-800">
+            <h3 class="text-3xl font-bold text-center mb-12">Formação e Crescimento Contínuo</h3>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                
+                <!-- Formação Acadêmica -->
+                <div class="bg-slate-800 p-6 rounded-xl">
+                    <h4 class="text-xl font-semibold mb-4 text-blue-400"><i class="fas fa-graduation-cap mr-2"></i> Formação Acadêmica</h4>
+                    <ul class="space-y-3">
+                        <li>**MBA em Gestão Competitiva e Business Intelligence (BI)** – Fasul (2024)</li>
+                        <li>**MBA em Consultoria e Planejamento Empresarial** – Fasul (2024)</li>
+                        <li>**Graduação em Gestão de Recursos Humanos** – Universidade Paulista (2020)</li>
+                    </ul>
+                </div>
+
+                <!-- Certificações -->
+                <div class="bg-slate-800 p-6 rounded-xl">
+                    <h4 class="text-xl font-semibold mb-4 text-blue-400"><i class="fas fa-certificate mr-2"></i> Certificações e Treinamentos</h4>
+                    <ul class="space-y-3">
+                        <li>**Microsoft Certified: Data Analyst Associate** (em andamento) - *Compromisso com o padrão global.*</li>
+                        <li>Especialista em BI, DAX Avançado e SQL Avançado – PBI Experience (2022)</li>
+                        <li>Python para Análise de Dados – Data Science Academy (2025)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. FOOTER & CALL TO ACTION FINAL -->
+        <footer id="contato" class="py-10 border-t border-slate-800 mt-16">
+            <div class="text-center max-w-3xl mx-auto">
+                <h3 class="text-4xl font-extrabold mb-4">Pronto para transformar seus dados em resultados?</h3>
+                <p class="text-slate-400 mb-8 text-lg">Vamos liderar a próxima iniciativa de BI e Analytics. Minha visão estratégica e liderança técnica estão prontas para contribuir para resultados mensuráveis e decisões mais assertivas.</p>
+                
+                <a href="mailto:Ingridgribeirol@gmail.com" class="bg-green-500 text-white text-xl font-semibold px-10 py-4 rounded-xl hover:bg-green-600 transition duration-300 shadow-lg shadow-green-500/30">
+                    <i class="fas fa-envelope mr-3"></i> Fale Diretamente com Ingrid
+                </a>
+                
+                <div class="mt-8 space-x-6 text-2xl">
+                    <!-- Links Reais (Substitua por seus URLs) -->
+                    <!-- LINKEDIN ATUALIZADO: Ingrid Gonçalves BI -->
+                    <a href="https://www.linkedin.com/in/ingridgoncalvesbi/" target="_blank" class="text-blue-400 hover:text-white transition duration-200" title="LinkedIn - Ingrid Gonçalves BI"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://seulinkdoportfolio.com" target="_blank" class="text-blue-400 hover:text-white transition duration-200" title="Portfólio de Cases"><i class="fas fa-chart-area"></i></a>
+                    <span class="text-slate-500 block sm:inline-block mt-4 sm:mt-0"> | (19) 97819-4105</span>
+                </div>
+                
+                <p class="text-xs text-slate-600 mt-10">© 2025 Ingrid Gonçalves. Design & Estratégia por Gemini AI.</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
